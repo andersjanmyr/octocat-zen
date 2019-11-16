@@ -19,7 +19,11 @@ This hands-on workshop provides a introduction to building pipeline workflows us
 
 :warning: Make sure to [configure two-factor-authentication](https://help.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication) for your GitHub account.
 
-At the end of most labs you will find links to relevant resources.
+At the end of each labs you will find links to relevant resources.
+
+**Tip:** follow the `if applied, this commit will <your subject line here>` best practice for every commit message so you know what is being tested by the build run. For example:
+
+>Add build and test workflow
 
 ### Resources
 
@@ -55,7 +59,7 @@ Let's get started with GitHub Actions:
 - GitHub will start the build, go to the `Checks` tab to follow the build process.
 - Merge the pull request and delete the feature branch.
 
-GitHub Actions are free for public repositories and on a free plan you get 200 build minutes.
+GitHub Actions are free for public repositories and on a free plan you get 2000 build minutes.
 
 **Bonus:** make a change in a new pull request that breaks the build.
 
