@@ -1,6 +1,6 @@
 # octocat-zen
 
-GitHub Actions workshop repository. The labs are in the docs/README.md document.
+GitHub Actions workshop repository. The labs are in the [docs/README.md](https://github.com/octodemo/octocat-zen/tree/master/docs) document.
 
 ## NPM
 
