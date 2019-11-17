@@ -27,6 +27,7 @@ At the end of each labs you will find links to relevant resources.
 
 ### Resources
 
+- [Core concepts for GitHub Actions](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/core-concepts-for-github-actions)
 - [Automating your workflow with GitHub Actions](https://help.github.com/en/actions/automating-your-workflow-with-github-actions) 
 - [Event Types & Payloads](https://developer.github.com/v3/activity/events/types/)
 - [About pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
