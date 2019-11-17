@@ -46,6 +46,11 @@ Create a new repository from [octocat-zen](https://github.com/octodemo/octocat-z
 - In `package.json` update the `name` and `repository` and commit the change.
 - In `.npmrc` update the scope ands commit the change.
 
+### Resources
+
+- [Creating a repository from a template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+- [Editing files in your repository](https://help.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository)
+
 ---
 ## Lab 2: Add starter workflow
 
@@ -60,9 +65,26 @@ Let's get started with GitHub Actions:
 - GitHub will start the build, go to the `Checks` tab to follow the build process.
 - Merge the pull request and delete the feature branch.
 
-GitHub Actions are free for public repositories and on a free plan you get 2000 build minutes.
+**Note:** GitHub Actions are free for public repositories and on a free plan you get 2000 build minutes.
 
 **Bonus:** make a change in a new pull request that breaks the build.
+
+For example you could add an array test:
+
+```javascript
+var assert = require('assert');
+
+[...]
+
+describe('Array', function () {
+  describe('#indexOf()', function () {
+    it('should return -1 when the value is not present', function () {
+      // replace 4 with value that is present in the array
+      assert.equal([1, 2, 3].indexOf(4), -1);
+    });
+  });
+});
+ ```
 
 ### Resources
 
@@ -71,6 +93,7 @@ GitHub Actions are free for public repositories and on a free plan you get 2000 
 - [npm-ci](https://docs.npmjs.com/cli/ci.html)
 - [npm-test](https://docs.npmjs.com/cli/test.html)
 - [npm-build](https://docs.npmjs.com/cli/build.html)
+- [Mocha](https://mochajs.org/#getting-started)
 
 ---
 ## Lab 3: Add a linter step
