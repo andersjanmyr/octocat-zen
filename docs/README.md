@@ -156,11 +156,11 @@ env:
 
 In this lab we add another workflow to take a look at the workflow context. We will also look at a few functions:
 
-- In `.github/workflows/` create a new file, for example: `dump-env.yml`
+- In `.github/workflows/` create a new file, for example: `dump-context.yml`
 - Add the following content:
 
 ```yaml
-name: Dump environment variables
+name: Dump contexts
 
 on: push
 
@@ -186,7 +186,7 @@ jobs:
         run: echo "$RUNNER_CONTEXT"
 ```
 
-- Commit the changes to a new branch like `dump-env` and open a pull request.
+- Commit the changes to a new branch like `dump-context` and open a pull request.
 - Visit the `Checks` tab to follow the workflow run.
 - Add a step that outputs the following variables from the GitHub context:
   - `github.event_name`
