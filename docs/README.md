@@ -69,7 +69,7 @@ Let's get started with GitHub Actions:
 
 **Bonus:** make a change in a new pull request that breaks the build.
 
-For example you could add an array test:
+For example you could add an array test in `test.js`:
 
 ```javascript
 var assert = require('assert');
