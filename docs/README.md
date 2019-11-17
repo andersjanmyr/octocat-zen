@@ -152,7 +152,7 @@ env:
 - [Env at the workflow and job level](https://github.blog/changelog/2019-10-01-github-actions-new-workflow-syntax-features/#env-at-the-workflow-and-job-level)
 
 ---
-## Lab 5: Echo environment variables
+## Lab 5: Dump contexts
 
 In this lab we add another workflow to take a look at the workflow context. We will also look at a few functions:
 
