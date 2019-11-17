@@ -544,7 +544,7 @@ jobs:
 ---
 ## Lab 14: Use the issue event
 
-In the following example we will the issue event to add a comment to an issue when it is created. We use `actions/github` to comment on the issue when it is opened.
+In the following example we will use the issue event to add a comment to an issue when it is created. We use `actions/github` to comment on the issue when it is opened.
 
 - Create a new workflow file in `.github/workflows` for example called `zen-comment.yml`:
 
@@ -617,13 +617,13 @@ You can also [use Docker to create actions](https://help.github.com/en/actions/a
 ## Lab 16: Create your own action 
 
 - Create small teams of two to three people. 
-- Start with brainstorming to come up with a great idea for a gitHub Action that can help you to improve your workflow. Remember that you can use any event on GitHub.
+- Start with brainstorming to come up with a great idea for a GitHub Action that can help you to improve your workflow. Remember that you can use [any event on GitHub](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/events-that-trigger-workflows).
 - Build and test your action.
 - Add documentation in the README.
 - Provide a sample workflow.
 - Prepare to present your action to the workshop audience.  
 
-If you want to interact with GitHub you can install and import the `@actions/github` library:
+If you want to interact with GitHub you can install and import the `@actions/github` library and create a `client`:
 
 ```javascript
 import * as core from '@actions/core';
